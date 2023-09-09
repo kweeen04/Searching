@@ -16,7 +16,7 @@ public class SearchProgramming extends Menu<String> {
     protected int size_array;
 
     public SearchProgramming(Element element, Library library, Algorithm algorithm) {
-        super("Sort Programming", mc);
+        super("Search Programming", mc);
         this.library = library;
         this.algorithm = algorithm;
         this.array = element.getArray();
